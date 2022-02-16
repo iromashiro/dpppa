@@ -506,55 +506,46 @@
                 <div class="item-carousel">
                     <!-- Carousel Item -->
                     <a href="#">
-                        <img src="{{URL::asset('depan/images/165x165_brand1.jpg')}}" alt=""></a>
+                        <img src="{{URL::asset('depan/852e8-sirup.png')}}" alt=""></a>
                     <!-- /Carousel Item -->
                 </div>
                 <!-- /Slide -->
 
-                <!-- Slide -->
                 <div class="item-carousel">
                     <!-- Carousel Item -->
                     <a href="#">
-                        <img src="{{URL::asset('depan/images/165x165_brand2.jpg')}}" alt=""></a>
+                        <img src="{{URL::asset('depan/LAPORSP4N.jpeg')}}" alt=""></a>
                     <!-- /Carousel Item -->
                 </div>
-                <!-- /Slide -->
 
-                <!-- Slide -->
                 <div class="item-carousel">
                     <!-- Carousel Item -->
                     <a href="#">
-                        <img src="{{URL::asset('depan/images/165x165_brand3.jpg')}}" alt=""></a>
+                        <img src="{{URL::asset('depan/siga_daerah.png')}}" alt=""></a>
                     <!-- /Carousel Item -->
                 </div>
-                <!-- /Slide -->
 
-                <!-- Slide -->
                 <div class="item-carousel">
                     <!-- Carousel Item -->
                     <a href="#">
-                        <img src="{{URL::asset('depan/images/165x165_brand4.jpg')}}" alt=""></a>
+                        <img src="{{URL::asset('depan/0ed89-jdih.png')}}" alt=""></a>
                     <!-- /Carousel Item -->
                 </div>
-                <!-- /Slide -->
 
-                <!-- Slide -->
                 <div class="item-carousel">
                     <!-- Carousel Item -->
                     <a href="#">
-                        <img src="{{URL::asset('depan/images/165x165_brand5.jpg')}}" alt=""></a>
+                        <img src="{{URL::asset('depan/LAPORSP4N.jpeg')}}" alt=""></a>
                     <!-- /Carousel Item -->
                 </div>
-                <!-- /Slide -->
 
-                <!-- Slide -->
+
                 <div class="item-carousel">
                     <!-- Carousel Item -->
                     <a href="#">
-                        <img src="{{URL::asset('depan/images/165x165_brand6.jpg')}}" alt=""></a>
+                        <img src="{{URL::asset('depan/d313b-kla.png')}}" alt=""></a>
                     <!-- /Carousel Item -->
                 </div>
-                <!-- /Slide -->
             </div>
 
         </div>

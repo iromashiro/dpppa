@@ -194,8 +194,8 @@
 
                             <div class="widget">
 
-
-                                <p class="text-center">Copyright <span>ME Soft</span> © 2021. <br> All Rights
+                                <p class="text-center">Copyright <span>DPPPA Kabupaten Muara Enim</span> © 2021. <br>
+                                    All Rights
                                     Reserved
                                 </p>
 

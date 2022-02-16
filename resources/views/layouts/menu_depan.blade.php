@@ -1,7 +1,7 @@
 <nav id="main-navigation" class="main-navigation">
     <ul id="menu" class="clearfix">
         <li class="nav-item">
-            <a class="nav-link" href="#">Beranda</a>
+            <a class="nav-link" href="{{route('index')}}">Beranda</a>
         </li>
         <li class="dropdown"><a href="#">Profil</a>
             <!--sub menu-->
@@ -22,9 +22,9 @@
             <!--sub menu-->
             <div class="sub-menu-wrap">
                 <ul>
-                    <li><a href="gallery_grid.html">Berita</a></li>
-                    <li><a href="gallery_grid.html">Artikel</a></li>
-                    <li><a href="gallery_grid.html">Pengumuman</a></li>
+                    <li><a href="">Berita</a></li>
+                    <li><a href="">Artikel</a></li>
+                    <li><a href="">Pengumuman</a></li>
                 </ul>
             </div>
         </li>
