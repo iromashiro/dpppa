@@ -16,10 +16,10 @@
         <div class="card">
             <!-- Card header -->
             <div class="card-header">
-                <h3 class="mb-0">List Data Informasi</h3>
+                <h3 class="mb-0">List Galeri</h3>
 
                 <div class="pt-3">
-                    <a href="{{ route('ppi.tambah') }}" class="btn btn-success">Tambah Data</a>
+                    <a href="{{ route('galeri.tambah') }}" class="btn btn-success">Tambah Data</a>
                 </div>
             </div>
 
@@ -44,7 +44,7 @@
                                         Download
                                     </a></td>
                                 <td class="text-center">
-                                    <form action="{{ route('ppi.destroy', $ga->id) }}" method="post">
+                                    <form action="{{ route('galeri.destroy', $ga->id) }}" method="post">
                                         @method('delete')
                                         @csrf
                                         <button type="submit" class="btn btn-pinterest btn-icon-only rounded-circle"

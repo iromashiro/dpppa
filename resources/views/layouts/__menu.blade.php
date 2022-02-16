@@ -77,6 +77,12 @@
                                         <span class="sidenav-normal"> Pengumuman </span>
                                     </a>
                                 </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('galeri.index') }}" class="nav-link">
+                                        <span class="sidenav-mini-icon"> G </span>
+                                        <span class="sidenav-normal"> Galeri</span>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </li>

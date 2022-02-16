@@ -4,13 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Models\Berita;
 use App\Models\data_informasi;
+use App\Models\Galeri;
 use App\Models\Pengumuman;
 use App\Models\Profil;
 use Illuminate\Http\Request;
 
 class AllController extends Controller
 {
-
     public function index()
     {
         $profil = Profil::all();
@@ -45,5 +45,12 @@ class AllController extends Controller
         $di = data_informasi::paginate(5);
         $profil = Profil::all();
         return view('data-informasi', compact('di', 'profil'));
+    }
+
+    public function galeri()
+    {
+        $galeri = Galeri::all();
+        $profil = Profil::all();
+        return view('galeri', compact('galeri', 'profil'));
     }
 }

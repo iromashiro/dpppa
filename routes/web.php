@@ -2,9 +2,11 @@
 
 use App\Http\Controllers\AllController;
 use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\GaleriController;
 use App\Models\Berita;
 use App\Models\data_informasi;
 use App\Models\Fasyankes;
+use App\Models\Galeri;
 use App\Models\layanan_publik;
 use App\Models\Pai;
 use App\Models\Profil;
@@ -122,6 +124,20 @@ Route::post('/admin/ppi/post', 'PpiController@create')->name('ppi.create');
 Route::post('/ppi-tinymce', 'PpiController@ppi_tinymce');
 Route::delete('/admin/ppi/delete/{id}', 'PpiController@destroy')->name('ppi.destroy');
 
+#galeri
+Route::get('/admin/galeri', function () {
+    $get_all = Galeri::all();
+    return view('admin.galeri.index', compact('get_all'));
+})->name('galeri.index');
+
+Route::get('/admin/galeri/tambah', function () {
+    return view('admin.galeri.tambah');
+})->name('galeri.tambah');
+
+Route::post('/admin/galeri/post', 'galeriController@create')->name('galeri.create');
+Route::post('/galeri-tinymce', 'galeriController@galeri_tinymce');
+Route::delete('/admin/galeri/delete/{id}', 'galeriController@destroy')->name('galeri.destroy');
+
 #INFORMASI PUBLIK
 Route::get('/admin/layanan_publik', function () {
     $get_all = layanan_publik::all();
@@ -141,3 +157,4 @@ Route::get('/', [AllController::class, 'index'])->name('index');
 Route::get('/data-informasi', [AllController::class, 'index_data_informasi'])->name('id.guest');
 Route::get('/profil/{slug}', [AllController::class, 'profil'])->name('profil');
 Route::get('/berita/{slug}', [AllController::class, 'berita'])->name('berita.guest');
+Route::get('/galeri', [AllController::class, 'galeri'])->name('galeri.guest');

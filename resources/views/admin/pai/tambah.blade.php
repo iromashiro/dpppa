@@ -11,7 +11,7 @@
             </div>
             <!-- Card body -->
             <div class="card-body">
-                <form method="POST" action="{{ route('data_informasi.create') }}" enctype="multipart/form-data">
+                <form method="POST" action="{{ route('pai.create') }}" enctype="multipart/form-data">
                     @csrf
                     <div class="col-md-12">
                         <div class="form-group">

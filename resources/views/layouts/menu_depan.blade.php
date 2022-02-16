@@ -14,9 +14,17 @@
             </div>
         </li>
 
-        <li class="nav-item">
-            <a class="nav-link" href="{{route('id.guest')}}">Data dan Informasi</a>
+        <li class="dropdown"><a href="#">Data dan Informasi</a>
+            <!--sub menu-->
+            <div class="sub-menu-wrap">
+                <ul>
+                    <li><a href="">Pembangunan Manusia Berbasis Gender</a></li>
+                    <li><a href="">Profile Anak Indonesia</a></li>
+                    <li><a href="">Profile Perempuan Indonesia</a></li>
+                </ul>
+            </div>
         </li>
+
 
         <li class="dropdown"><a href="#">Informasi Publik</a>
             <!--sub menu-->
@@ -29,7 +37,7 @@
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Kontak Kami</a>
+            <a class="nav-link" href="{{route('galeri.guest')}}">Galeri</a>
         </li>
     </ul>
 </nav>
