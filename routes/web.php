@@ -134,9 +134,9 @@ Route::get('/admin/galeri/tambah', function () {
     return view('admin.galeri.tambah');
 })->name('galeri.tambah');
 
-Route::post('/admin/galeri/post', 'galeriController@create')->name('galeri.create');
-Route::post('/galeri-tinymce', 'galeriController@galeri_tinymce');
-Route::delete('/admin/galeri/delete/{id}', 'galeriController@destroy')->name('galeri.destroy');
+Route::post('/admin/galeri/post', 'GaleriController@create')->name('galeri.create');
+Route::post('/galeri-tinymce', 'GaleriController@galeri_tinymce');
+Route::delete('/admin/galeri/delete/{id}', 'GaleriController@destroy')->name('galeri.destroy');
 
 #INFORMASI PUBLIK
 Route::get('/admin/layanan_publik', function () {
