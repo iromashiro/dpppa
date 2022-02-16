@@ -220,7 +220,7 @@
                                         <h5 class="entry-title"><a
                                                 href="{{route('berita.guest', $b->slug)}}">{{$b->judul}}</a></h5>
 
-                                        {!!$b->isi_berita!!}
+                                        {!! Str::limit($b->isi_berita, 20) !!}
 
                                     </div>
 
