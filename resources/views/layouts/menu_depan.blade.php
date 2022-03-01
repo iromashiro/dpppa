@@ -18,9 +18,9 @@
             <!--sub menu-->
             <div class="sub-menu-wrap">
                 <ul>
-                    <li><a href="">Pembangunan Manusia Berbasis Gender</a></li>
-                    <li><a href="">Profile Anak Indonesia</a></li>
-                    <li><a href="">Profile Perempuan Indonesia</a></li>
+                    <li><a href="{{ route('index_pmbg.guest') }}">Pembangunan Manusia Berbasis Gender</a></li>
+                    <li><a href="{{ route('index_pai.guest') }}">Profile Anak Indonesia</a></li>
+                    <li><a href="{{ route('index_ppi.guest') }}">Profile Perempuan Indonesia</a></li>
                 </ul>
             </div>
         </li>
@@ -30,8 +30,7 @@
             <!--sub menu-->
             <div class="sub-menu-wrap">
                 <ul>
-                    <li><a href="">Berita</a></li>
-                    <li><a href="">Artikel</a></li>
+                    <li><a href="{{ route('index_berita.guest') }}">Berita</a></li>
                     <li><a href="">Pengumuman</a></li>
                 </ul>
             </div>
