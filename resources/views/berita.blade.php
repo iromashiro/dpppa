@@ -115,6 +115,8 @@
 
                                     <div class="entry-meta">
 
+                                        <a href="#" class="entry-news">Admin</a>
+
                                     </div>
 
                                 </div>
@@ -172,6 +174,9 @@
                                     <h5 class="entry-title"><a href="#">{{ $as->judul_berita }}</a></h5>
 
                                     <div class="entry-meta">
+
+                                        <a href="#" class="entry-news">Admin</a>
+
                                     </div>
 
                                 </div>
