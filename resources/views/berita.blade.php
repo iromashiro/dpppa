@@ -50,8 +50,7 @@
                                                 </div>
 
                                                 <!-- - - - - - - - - - - - - - Entry meta - - - - - - - - - - - - - - - - -->
-
-                                                {!! $b->isi_berita !!}
+                                                {!! substr(strip_tags($b->isi_berita), 0, 150) !!}
                                             </div>
 
                                         </div>

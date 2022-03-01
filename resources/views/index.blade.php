@@ -12,20 +12,15 @@
 
                 <!-- - - - - - - - - - - - - - Layer 1 - - - - - - - - - - - - - - - - -->
 
-                <div class="tp-caption tp-resizeme scaption-white-text rs-parallaxlevel-1" data-x="center" data-y="top"
-                    data-voffset="180" data-whitespace="nowrap"
-                    data-frames='[{"delay":150,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                    data-responsive_offset="on" data-elementdelay="0.05">Selamat Datang di Website
+                <div class="tp-caption tp-resizeme scaption-white-text rs-parallaxlevel-1" data-x="center" data-y="top" data-voffset="180" data-whitespace="nowrap" data-frames='[{"delay":150,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]' data-responsive_offset="on" data-elementdelay="0.05">Selamat Datang di Website
                 </div>
 
                 <!-- - - - - - - - - - - - - - End of Layer 1 - - - - - - - - - - - - - - - - -->
 
                 <!-- - - - - - - - - - - - - - Layer 2 - - - - - - - - - - - - - - - - -->
 
-                <div class="tp-caption tp-resizeme scaption-white-large rs-parallaxlevel-2" data-x="center" data-y="top"
-                    data-voffset="225"
-                    data-frames='[{"delay":450,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                    Dinas Perlindungan Anak <br> dan Pemberdayaan Perempuam
+                <div class="tp-caption tp-resizeme scaption-white-large rs-parallaxlevel-2" data-x="center" data-y="top" data-voffset="225" data-frames='[{"delay":450,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                    Dinas Pemberdayaan Perempuan <br> dan Perlindungan Anak
                 </div>
 
                 <!-- - - - - - - - - - - - - - End of Layer 2 - - - - - - - - - - - - - - - - -->
@@ -42,20 +37,15 @@
 
                 <!-- - - - - - - - - - - - - - Layer 1 - - - - - - - - - - - - - - - - -->
 
-                <div class="tp-caption tp-resizeme scaption-white-text rs-parallaxlevel-1" data-x="center" data-y="top"
-                    data-voffset="180" data-whitespace="nowrap"
-                    data-frames='[{"delay":150,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-                    data-responsive_offset="on" data-elementdelay="0.05">Selamat Datang di Website
+                <div class="tp-caption tp-resizeme scaption-white-text rs-parallaxlevel-1" data-x="center" data-y="top" data-voffset="180" data-whitespace="nowrap" data-frames='[{"delay":150,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]' data-responsive_offset="on" data-elementdelay="0.05">Selamat Datang di Website
                 </div>
 
                 <!-- - - - - - - - - - - - - - End of Layer 1 - - - - - - - - - - - - - - - - -->
 
                 <!-- - - - - - - - - - - - - - Layer 2 - - - - - - - - - - - - - - - - -->
 
-                <div class="tp-caption tp-resizeme scaption-white-large rs-parallaxlevel-2" data-x="center" data-y="top"
-                    data-voffset="225"
-                    data-frames='[{"delay":450,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                    Dinas Perlindungan Anak <br> dan Pemberdayaan Perempuam
+                <div class="tp-caption tp-resizeme scaption-white-large rs-parallaxlevel-2" data-x="center" data-y="top" data-voffset="225" data-frames='[{"delay":450,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                    Dinas Pemberdayaan Perempuan <br> dan Perlindungan Anak
                 </div>
             </li>
 
@@ -122,8 +112,7 @@
 
                             <!-- - - - - - - - - - - - - - Countdown - - - - - - - - - - - - - - - - -->
 
-                            <div class="countdown" data-year="2021" data-month="12" data-day="20" data-hours="15"
-                                data-minutes="0" data-seconds="0"></div>
+                            <div class="countdown" data-year="2021" data-month="12" data-day="20" data-hours="15" data-minutes="0" data-seconds="0"></div>
 
                             <!-- - - - - - - - - - - - - - End countdown - - - - - - - - - - - - - - - - -->
 
@@ -141,8 +130,7 @@
 
                             <!-- - - - - - - - - - - - - - Countdown - - - - - - - - - - - - - - - - -->
 
-                            <div class="countdown" data-year="2021" data-month="12" data-day="20" data-hours="15"
-                                data-minutes="0" data-seconds="0"></div>
+                            <div class="countdown" data-year="2021" data-month="12" data-day="20" data-hours="15" data-minutes="0" data-seconds="0"></div>
 
                             <!-- - - - - - - - - - - - - - End countdown - - - - - - - - - - - - - - - - -->
 
@@ -206,8 +194,7 @@
 
                             <div class="welcome-content">
 
-                                <svg class="bigHalfCircle" xmlns="http://www.w3.org/2000/svg" version="1.1"
-                                    viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <svg class="bigHalfCircle" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
                                     <path d="M0 100 C40 0 60 0 100 100 Z"></path>
                                 </svg>
 
@@ -217,8 +204,7 @@
 
                                     <div class="entry-body">
 
-                                        <h5 class="entry-title"><a
-                                                href="{{route('berita.guest', $b->slug)}}">{{$b->judul}}</a></h5>
+                                        <h5 class="entry-title"><a href="{{route('berita.guest', $b->slug)}}">{{$b->judul}}</a></h5>
 
                                         {{ Str::limit($b->isi_berita, 20) }}
 
@@ -315,8 +301,7 @@
 
             <div class="carousel-type-1">
 
-                <div class="owl-carousel testimonial type-2" data-max-items="3" data-item-margin="30"
-                    data-autoplay="true">
+                <div class="owl-carousel testimonial type-2" data-max-items="3" data-item-margin="30" data-autoplay="true">
 
                     <!-- Slide -->
                     <div class="item-carousel">
