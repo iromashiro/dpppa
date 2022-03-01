@@ -89,62 +89,6 @@
 
 <!-- page-section -->
 
-<div class="section-with-carousel with-bg">
-
-    <div class="row">
-
-        <div class="col-md-6">
-
-            <div class="countdown-area align-center">
-
-                <!-- - - - - - - - - - - - - Owl-Carousel - - - - - - - - - - - - - - - -->
-
-                <div class="carousel-type-1">
-
-                    <div class="owl-carousel" data-max-items="1" data-autoplay="true">
-
-                        @foreach ($pengumuman as $p)
-                        <!-- Slide -->
-                        <div class="item-carousel">
-                            <!-- Carousel Item -->
-                            <h6 class="section-pre-title">Pengumuman</h6>
-                            <h2 class="section-title">{{ $p->judul }}</h2>
-                            <time datetime="2021-12-07"> {!! $p->isi_pengumuman !!}</time>
-
-                            <!-- - - - - - - - - - - - - - Countdown - - - - - - - - - - - - - - - - -->
-
-                            <!-- /Carousel Item -->
-                        </div>
-                        <!-- /Slide -->
-
-                        @endforeach
-
-                        <div class="item-carousel">
-                            <!-- Carousel Item -->
-                            <h6 class="section-pre-title"></h6>
-                            <h2 class="section-title"></h2>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-        <div class="col-md-6">
-
-            <div class="img-holder">
-                <img src="{{URL::asset('depan/header3.jpg')}}" width="750px" height="580px">
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
 <!-- page-section -->
 
 
