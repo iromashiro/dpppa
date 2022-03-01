@@ -57,7 +57,7 @@ class AllController extends Controller
 
     public function index_berita()
     {
-        $berita = Berita::paginate(1);
+        $berita = Berita::paginate(5);
         $galeri = Galeri::all();
         $profil = Profil::all();
         $berita_side = Berita::paginate(3);
