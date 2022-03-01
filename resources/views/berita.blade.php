@@ -45,7 +45,6 @@
                                                 <div class="entry-meta">
 
                                                     <div class="entry-byline"><a href="{{ route('berita.guest', $b->slug) }}">Admin</a></div>
-                                                    <a href="#" class="entry-news">{{ $b->slug }}</a>
 
                                                 </div>
 
@@ -116,8 +115,6 @@
 
                                     <div class="entry-meta">
 
-                                        <a href="#" class="entry-news">{{ $bs->slug }}</a>
-
                                     </div>
 
                                 </div>
@@ -175,9 +172,6 @@
                                     <h5 class="entry-title"><a href="#">{{ $as->judul_berita }}</a></h5>
 
                                     <div class="entry-meta">
-
-                                        <a href="#" class="entry-news">{{ $as->slug }}</a>
-
                                     </div>
 
                                 </div>
