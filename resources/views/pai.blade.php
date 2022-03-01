@@ -38,13 +38,13 @@
 
                                             <div class="wrapper">
 
-                                                <h5 class="entry-title"><a href="{{ route('berita.guest', $b->slug) }}">{{ $b->judul }}</a></h5>
+                                                <h5 class="entry-title"><a href="{{ route('pmbg.guest', $b->slug) }}">{{ $b->nama_menu }}</a></h5>
 
                                                 <!-- - - - - - - - - - - - - - Entry meta - - - - - - - - - - - - - - - - -->
 
                                                 <div class="entry-meta">
 
-                                                    <div class="entry-byline"><a href="{{ route('berita.guest', $b->slug) }}">Admin</a></div>
+                                                    <div class="entry-byline"><a href="{{ route('pmbg.guest', $b->slug) }}">Admin</a></div>
 
                                                 </div>
 
@@ -91,7 +91,7 @@
 
                                 <div class="entry-attachment">
 
-                                    <a class="#" href="{{ route('berita.guest', $bs->slug) }}"><img src="{{ $bs->thumbnail }}" alt=""></a>
+                                    <a class="#" href="{{ route('pai.guest', $bs->slug) }}"><img src="{{ $bs->thumbnail }}" alt=""></a>
 
                                 </div>
 
@@ -111,7 +111,7 @@
 
                                     <!-- - - - - - - - - - - - - - End of Meta - - - - - - - - - - - - - - - - -->
 
-                                    <h5 class="entry-title"><a href="{{ route('berita.guest', $bs->slug) }}">{{ $bs->judul_berita }}</a></h5>
+                                    <h5 class="entry-title"><a href="{{ route('pai.guest', $bs->slug) }}">{{ $bs->judul_berita }}</a></h5>
 
                                     <div class="entry-meta">
 

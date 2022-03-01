@@ -6,7 +6,10 @@ use App\Models\Artikel;
 use App\Models\Berita;
 use App\Models\data_informasi;
 use App\Models\Galeri;
+use App\Models\Pai;
 use App\Models\Pengumuman;
+use App\Models\Pmbg;
+use App\Models\Ppi;
 use App\Models\Profil;
 use Illuminate\Http\Request;
 
@@ -63,6 +66,63 @@ class AllController extends Controller
         $berita_side = Berita::paginate(3);
         $artikel_side = Pengumuman::paginate(3);
         return view('berita', compact('galeri', 'profil', 'berita', 'berita_side', 'artikel_side'));
+    }
+
+    public function pmbg()
+    {
+        $berita = Pmbg::paginate(5);
+        $galeri = Galeri::all();
+        $profil = Profil::all();
+        $berita_side = Berita::paginate(3);
+        $artikel_side = Pengumuman::paginate(3);
+        return view('pmbg', compact('galeri', 'profil', 'berita', 'berita_side', 'artikel_side'));
+    }
+
+    public function pai()
+    {
+        $berita = Pai::paginate(5);
+        $galeri = Galeri::all();
+        $profil = Profil::all();
+        $berita_side = Berita::paginate(3);
+        $artikel_side = Pengumuman::paginate(3);
+        return view('pai', compact('galeri', 'profil', 'berita', 'berita_side', 'artikel_side'));
+    }
+
+    public function ppi()
+    {
+        $berita = Ppi::paginate(5);
+        $galeri = Galeri::all();
+        $profil = Profil::all();
+        $berita_side = Berita::paginate(3);
+        $artikel_side = Pengumuman::paginate(3);
+        return view('ppi', compact('galeri', 'profil', 'berita', 'berita_side', 'artikel_side'));
+    }
+
+    public function pmbg_single($slug)
+    {
+        $berita = Pmbg::where('slug', '=', $slug)->first();
+        $pn = Berita::orderBy('created_at', 'desc')->take(5)->get();
+        $rn = Berita::orderBy('created_at', 'asc')->take(4)->get();
+        $profil = Profil::all();
+        return view('pmbg-single', compact('berita', 'profil', 'rn', 'pn'));
+    }
+
+    public function pai_single($slug)
+    {
+        $berita = Pai::where('slug', '=', $slug)->first();
+        $pn = Berita::orderBy('created_at', 'desc')->take(5)->get();
+        $rn = Berita::orderBy('created_at', 'asc')->take(4)->get();
+        $profil = Profil::all();
+        return view('pai-single', compact('berita', 'profil', 'rn', 'pn'));
+    }
+
+    public function ppi_single($slug)
+    {
+        $berita = Ppi::where('slug', '=', $slug)->first();
+        $pn = Berita::orderBy('created_at', 'desc')->take(5)->get();
+        $rn = Berita::orderBy('created_at', 'asc')->take(4)->get();
+        $profil = Profil::all();
+        return view('ppi-single', compact('berita', 'profil', 'rn', 'pn'));
     }
 
 }

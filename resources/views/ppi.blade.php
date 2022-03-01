@@ -38,13 +38,13 @@
 
                                             <div class="wrapper">
 
-                                                <h5 class="entry-title"><a href="{{ route('berita.guest', $b->slug) }}">{{ $b->judul }}</a></h5>
+                                                <h5 class="entry-title"><a href="{{ route('ppi.guest', $b->slug) }}">{{ $b->nama_menu }}</a></h5>
 
                                                 <!-- - - - - - - - - - - - - - Entry meta - - - - - - - - - - - - - - - - -->
 
                                                 <div class="entry-meta">
 
-                                                    <div class="entry-byline"><a href="{{ route('berita.guest', $b->slug) }}">Admin</a></div>
+                                                    <div class="entry-byline"><a href="{{ route('ppi.guest', $b->slug) }}">Admin</a></div>
 
                                                 </div>
 
