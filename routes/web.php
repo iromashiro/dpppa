@@ -158,3 +158,4 @@ Route::get('/data-informasi', [AllController::class, 'index_data_informasi'])->n
 Route::get('/profil/{slug}', [AllController::class, 'profil'])->name('profil');
 Route::get('/berita/{slug}', [AllController::class, 'berita'])->name('berita.guest');
 Route::get('/galeri', [AllController::class, 'galeri'])->name('galeri.guest');
+Route::get('/berita', [AllController::class, 'index_berita'])->name('index_berita.guest');

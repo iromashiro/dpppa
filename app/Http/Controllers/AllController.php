@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Artikel;
 use App\Models\Berita;
 use App\Models\data_informasi;
 use App\Models\Galeri;
@@ -53,4 +54,15 @@ class AllController extends Controller
         $profil = Profil::all();
         return view('galeri', compact('galeri', 'profil'));
     }
+
+    public function index_berita()
+    {
+        $berita = Berita::paginate(1);
+        $galeri = Galeri::all();
+        $profil = Profil::all();
+        $berita_side = Berita::paginate(3);
+        $artikel_side = Pengumuman::paginate(3);
+        return view('berita', compact('galeri', 'profil', 'berita', 'berita_side', 'artikel_side'));
+    }
+
 }

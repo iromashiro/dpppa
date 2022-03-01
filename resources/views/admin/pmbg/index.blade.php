@@ -3,10 +3,8 @@
 @section('css')
 <!-- Page plugins -->
 <link rel="stylesheet" href="{{URL::asset('adm_dinsos/vendor/datatables.net-bs4/css/dataTables.bootstrap4.min.css')}}">
-<link rel="stylesheet"
-    href="{{URL::asset('adm_dinsos/vendor/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css')}}">
-<link rel="stylesheet"
-    href="{{URL::asset('adm_dinsos/vendor/datatables.net-select-bs4/css/select.bootstrap4.min.css')}}">
+<link rel="stylesheet" href="{{URL::asset('adm_dinsos/vendor/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css')}}">
+<link rel="stylesheet" href="{{URL::asset('adm_dinsos/vendor/datatables.net-select-bs4/css/select.bootstrap4.min.css')}}">
 @endsection
 
 @section('content')
@@ -16,7 +14,7 @@
         <div class="card">
             <!-- Card header -->
             <div class="card-header">
-                <h3 class="mb-0">List Data Informasi</h3>
+                <h3 class="mb-0">List Pembangunan Manusia Berbasis Gender</h3>
 
                 <div class="pt-3">
                     <a href="{{ route('pmbg.tambah') }}" class="btn btn-success">Tambah Data</a>
@@ -47,8 +45,7 @@
                                     <form action="{{ route('pmbg.destroy', $ga->id) }}" method="post">
                                         @method('delete')
                                         @csrf
-                                        <button type="submit" class="btn btn-pinterest btn-icon-only rounded-circle"
-                                            onclick="return confirm('Apakah Anda yakin akan menghapus data ini?')">
+                                        <button type="submit" class="btn btn-pinterest btn-icon-only rounded-circle" onclick="return confirm('Apakah Anda yakin akan menghapus data ini?')">
                                             <span class="btn-inner--icon">x</span>
                                         </button>
                                     </form>

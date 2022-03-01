@@ -25,7 +25,7 @@ class PmbgController extends Controller
 
         Alert::success('Berhasil Tambah Menu Profil', 'Anda Telah Menambahkan Menu Profil Baru!');
 
-        return \redirect()->route('data_informasi.index');
+        return \redirect()->route('pmbg.index');
     }
 
     public function destroy($id)

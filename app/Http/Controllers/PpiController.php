@@ -25,7 +25,7 @@ class PpiController extends Controller
 
         Alert::success('Berhasil Tambah Menu Profil', 'Anda Telah Menambahkan Menu Profil Baru!');
 
-        return \redirect()->route('data_informasi.index');
+        return \redirect()->route('ppi.index');
     }
 
     public function destroy($id)

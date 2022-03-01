@@ -31,8 +31,7 @@
 
                     <!-- PROFIL -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#navbar-dashboards" data-toggle="collapse" role="button"
-                            aria-expanded="true" aria-controls="navbar-dashboards">
+                        <a class="nav-link" href="#navbar-dashboards" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-dashboards">
                             <i class="ni ni-badge text-primary"></i>
                             <span class="nav-link-text">Menu</span>
                         </a>
@@ -58,8 +57,7 @@
 
                     <!-- BERITA -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#navbar-dashboard" data-toggle="collapse" role="button"
-                            aria-expanded="true" aria-controls="navbar-dashboards">
+                        <a class="nav-link" href="#navbar-dashboard" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-dashboards">
                             <i class="ni ni-map-big text-primary"></i>
                             <span class="nav-link-text">Informasi</span>
                         </a>
@@ -88,6 +86,32 @@
                     </li>
                     <!-- BERITA -->
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#datainformasi" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-dashboards">
+                            <i class="ni ni-map-big text-primary"></i>
+                            <span class="nav-link-text">Data dan Informasi</span>
+                        </a>
+                        <div class="collapse" id="datainformasi">
+                            <ul class="nav nav-sm flex-column">
+                                <li class="nav-item">
+                                    <a href="{{ route('pmbg.index') }}" class="nav-link">
+                                        <span class="sidenav-normal">Pemb. Berbasis Gender </span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('pai.index') }}" class="nav-link">
+                                        <span class="sidenav-normal"> Profil Anak Indonesia</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ route('ppi.index') }}" class="nav-link">
+                                        <span class="sidenav-normal"> Profile Perempuan Indonesia</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
                     <!-- LOGOUT -->
                     <li class="nav-item">
                         <a class="nav-link" href="/admin/logout" onclick="event.preventDefault();
@@ -95,8 +119,7 @@
                             <i class="ni ni-button-power text-red"></i>
                             <span class="nav-link-text">Logout</span>
                         </a>
-                        <form id="logout-form" action="{{ route('admin.logout') }}" method="POST"
-                            style="display: none;">
+                        <form id="logout-form" action="{{ route('admin.logout') }}" method="POST" style="display: none;">
                             @csrf
                         </form>
 

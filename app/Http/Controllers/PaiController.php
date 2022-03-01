@@ -25,7 +25,7 @@ class PaiController extends Controller
 
         Alert::success('Berhasil Tambah Menu Profil', 'Anda Telah Menambahkan Menu Profil Baru!');
 
-        return \redirect()->route('data_informasi.index');
+        return \redirect()->route('pai.index');
     }
 
     public function destroy($id)
