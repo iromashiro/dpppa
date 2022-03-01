@@ -45,7 +45,7 @@
                 <!-- - - - - - - - - - - - - - Layer 2 - - - - - - - - - - - - - - - - -->
 
                 <div class="tp-caption tp-resizeme scaption-white-large rs-parallaxlevel-2" data-x="center" data-y="top" data-voffset="225" data-frames='[{"delay":450,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                    Dinas Pemberdayaan Perempuan <br> dan Perlindungan Anak
+                    Dinas Perlindungan Anak <br> dan Pemberdayaan Perempuam
                 </div>
             </li>
 
@@ -103,40 +103,27 @@
 
                     <div class="owl-carousel" data-max-items="1" data-autoplay="true">
 
+                        @foreach ($pengumuman as $p)
                         <!-- Slide -->
                         <div class="item-carousel">
                             <!-- Carousel Item -->
-                            <h6 class="section-pre-title">Kegiatan Yang Akan Datang</h6>
-                            <h2 class="section-title">Nama Kegiatan</h2>
-                            <time datetime="2021-12-07">Minggu, 8 Desember 2021 09.00 WIB</time>
+                            <h6 class="section-pre-title">Pengumuman</h6>
+                            <h2 class="section-title">{{ $p->judul }}</h2>
+                            <time datetime="2021-12-07"> {!! $p->isi_pengumuman !!}</time>
 
                             <!-- - - - - - - - - - - - - - Countdown - - - - - - - - - - - - - - - - -->
-
-                            <div class="countdown" data-year="2021" data-month="12" data-day="20" data-hours="15" data-minutes="0" data-seconds="0"></div>
-
-                            <!-- - - - - - - - - - - - - - End countdown - - - - - - - - - - - - - - - - -->
-
-                            <a href="#" class="btn btn-big">Join Now!</a>
 
                             <!-- /Carousel Item -->
                         </div>
                         <!-- /Slide -->
 
+                        @endforeach
+
                         <div class="item-carousel">
                             <!-- Carousel Item -->
-                            <h6 class="section-pre-title">Kegiatan Yang Akan Datang</h6>
-                            <h2 class="section-title">Nama Kegiatan</h2>
-                            <time datetime="2021-7-12">Minggu, 8 Desember 2021 09.00 WIB</time>
+                            <h6 class="section-pre-title"></h6>
+                            <h2 class="section-title"></h2>
 
-                            <!-- - - - - - - - - - - - - - Countdown - - - - - - - - - - - - - - - - -->
-
-                            <div class="countdown" data-year="2021" data-month="12" data-day="20" data-hours="15" data-minutes="0" data-seconds="0"></div>
-
-                            <!-- - - - - - - - - - - - - - End countdown - - - - - - - - - - - - - - - - -->
-
-                            <a href="#" class="btn btn-big">Join Now!</a>
-
-                            <!-- /Carousel Item -->
                         </div>
 
                     </div>
@@ -206,7 +193,7 @@
 
                                         <h5 class="entry-title"><a href="{{route('berita.guest', $b->slug)}}">{{$b->judul}}</a></h5>
 
-                                        {{ Str::limit($b->isi_berita, 20) }}
+                                        {!! Str::limit($b->isi_berita, 20) !!}
 
                                     </div>
 
@@ -244,40 +231,6 @@
 
                 <div class="custom-owl-prev"></div>
                 <div class="custom-owl-next"></div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<!-- page-section -->
-
-<div class="page-section">
-
-    <div class="container">
-
-        <div class="align-center">
-
-            <h2 class="section-title">Artikel Terbaru</h2>
-            <div class="team-holder fx-col-4">
-
-                <!-- team element -->
-                <div class="team-item">
-
-                    <div class="team-member">
-                        <a href="#" class="member-photo">
-                            <img src="{{URL::asset('depan/images/260x260_author1.jpg')}}" alt="">
-                        </a>
-                        <div class="member-info">
-                            <h5 class="member-name"><a href="#">Judul Artikel</a></h5>
-                            <h6 class="member-position">Sepintas Artike;</h6>
-                        </div>
-                    </div>
-
-                </div>
 
             </div>
 
