@@ -49,7 +49,6 @@
 
 <body>
 
-    <div class="loader"></div>
 
     <!--cookie-->
     <!-- <div class="cookie">
@@ -108,7 +107,7 @@
 
                                 <div class="logo-wrap">
 
-                                    <a href="index.html" class="logo">LOGO DISINI</a>
+                                    <a href="#" class="logo"><img src="{{URL::asset('depan/muara_enim.png')}}" height="50px"></a>
 
                                 </div>
 
@@ -122,7 +121,7 @@
                                             <span class="licon-telephone"></span>
                                             <div>
                                                 Hubungi Kami:
-                                                <a href="#">000-000-000-000</a>
+                                                <a href="wa.me/+6282182066124">0821-8206-6124</a>
                                             </div>
 
                                         </li>
@@ -190,20 +189,37 @@
                     <div class="row">
 
                         <!-- - - - - - - - - - - - - - Widget - - - - - - - - - - - - - - - - -->
-                        <div class="col-md-12 col-xs-12">
+                        <div class="col-md-4 col-xs-12">
 
                             <div class="widget">
 
-                                <p class="text-center">Copyright <span>DPPPA Kabupaten Muara Enim</span> © 2021. <br>
-                                    All Rights
-                                    Reserved
+                                <p class="text-center">Jalan Sultan Mahmud Badaruddin II Muara Enim Kecamatan Muara Enim Provinsi Sumsel Kode Pos 31315
                                 </p>
 
                             </div>
 
                         </div>
+                        
+                        <div class="col-md-4 col-xs-12">
+                            </div>
                         <!-- - - - - - - - - - - - - - Widget - - - - - - - - - - - - - - - - -->
+<div class="col-md-4 col-xs-12">
+						
+						<div class="widget">
 
+
+			                <ul class="social-icons style-2">
+
+				                <li class="fb-icon"><a href="https://www.facebook.com/dpppamuaraenim"><i class="icon-facebook"></i></a></li>
+				                <li class="insta-icon"><a href="https://www.instagram.com/dpppamuaraenim/"><i class="icon-instagram-4"></i></a></li>
+
+				            </ul>
+
+				            <p class="copyright">Copyright <span>Dinas PPA Kab. Muara Enim</span> © 2021. <br> All Rights Reserved</p>
+
+			            </div>
+
+					</div>
                         <!-- - - - - - - - - - - - - - Widget - - - - - - - - - - - - - - - - -->
 
                     </div>
@@ -233,7 +249,6 @@
     <script src="{{URL::asset('depan/plugins/jquery.countdown.plugin.min.js')}}"></script>
     <script src="{{URL::asset('depan/plugins/jquery.countdown.min.js')}}"></script>
     <script src="{{URL::asset('depan/plugins/owl.carousel.min.js')}}"></script>
-    <script src="{{URL::asset('depan/plugins/jquery.queryloader2.min.js')}}"></script>
     <script src="{{URL::asset('depan/plugins/revolution/js/jquery.themepunch.tools.min.js')}}"></script>
     <script src="{{URL::asset('depan/plugins/revolution/js/jquery.themepunch.revolution.min.js')}}"></script>
     <script type="text/javascript"
